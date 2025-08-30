@@ -10,8 +10,8 @@ It extends NVIDIA’s anomaly detection reference app to support **live Intel Re
 - **Real-time video analytics** at 1280×720 and 30 FPS
 - **AI inference** via ResNet-18 anomaly detection model
 - **Motion detection** using `dsdirection` plugin
-- 🖥**Dual-view display** (raw + AI-processed outputs)
-- 🛠**Automated shell scripts** for multi-camera setup, synchronization, and GStreamer previews
+- **Dual-view display** (raw + AI-processed outputs)
+- **Automated shell scripts** for multi-camera setup, synchronization, and GStreamer previews
 - **GPU benchmarking** with `jtop` on Jetson Orin Nano
 
 ---
