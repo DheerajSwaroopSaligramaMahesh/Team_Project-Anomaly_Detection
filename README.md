@@ -58,6 +58,7 @@ It extends NVIDIA’s anomaly detection reference app to support **live Intel Re
 ## Additional Resources
 
 For more information, refer to the project report and included commands/scripts in this repository.
+
 [Paper Link](https://github.com/DheerajSwaroopSaligramaMahesh/Team_Project-Anomaly_Detection/blob/main/Anomaly_Detection_Project/Nvidia_Multi-Cam_AI_Video_Analytics_Using_DeepStream_SDK_7.1.pdf)
 
 [Report Link](https://github.com/DheerajSwaroopSaligramaMahesh/Team_Project-Anomaly_Detection/blob/main/Anomaly_Detection_Project/Report_Nvidia_Orin_Nano_ss25.pdf)
