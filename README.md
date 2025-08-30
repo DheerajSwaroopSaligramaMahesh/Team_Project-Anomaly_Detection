@@ -1,0 +1,55 @@
+# Multi-Camera AI Video Analytics with NVIDIA DeepStream 7.1
+
+This project implements a **real-time multi-camera anomaly detection system** on the **NVIDIA Jetson Orin Nano** using the **DeepStream SDK 7.1**.  
+It extends NVIDIA’s anomaly detection reference app to support **live Intel RealSense D455 cameras**, enabling scalable AI-powered video analytics at the edge.
+
+---
+
+## Features
+- **Multi-camera support** using Intel RealSense D455
+- **Real-time video analytics** at 1280×720 and 30 FPS
+- **AI inference** via ResNet-18 anomaly detection model
+- **Motion detection** using `dsdirection` plugin
+- 🖥**Dual-view display** (raw + AI-processed outputs)
+- 🛠**Automated shell scripts** for multi-camera setup, synchronization, and GStreamer previews
+- **GPU benchmarking** with `jtop` on Jetson Orin Nano
+
+---
+
+## Project Structure
+├── configs/ # DeepStream pipeline and model configs<br>
+├── scripts/ # Shell scripts for automation<br>
+├── models/ # ResNet-18 anomaly detection TensorRT engine<br>
+├── src/ # Pipeline adaptation and plugin integration<br>
+└── README.md # Project documentation<br>
+
+
+---
+
+## Requirements
+- **Hardware**
+  - NVIDIA Jetson Orin Nano
+  - Intel RealSense D455 (x2)
+
+- **Software**
+  - JetPack (latest release for Orin Nano)
+  - NVIDIA DeepStream SDK 7.1
+  - GStreamer with `v4l2src`, `nvinfer`, `dsdirection`
+  - CUDA 12.6
+  - TensorRT
+  - `jtop` (for benchmarking)
+
+---
+
+## How to Run
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/DheerajSwaroopSaligramaMahesh/Team_Project-Anomaly_Detection.git
+
+2. cd /opt/nvidia/deepstream/deepstream-7.1/sources/apps/sample_apps/Anomaly_Detection_Camera/deepstream_reference_apps/anomaly/apps/deepstream-anomaly-detection-test
+
+3. sudo make
+
+4. Please modify the camera inputs for the ./deepstream-anomaly-detection-app and gst-streamer, specify the correct sources
+  
+5. Run command: sh ./run_deepstream_anomaly_detection_app.sh
