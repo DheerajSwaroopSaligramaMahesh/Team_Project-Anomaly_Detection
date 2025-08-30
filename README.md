@@ -63,4 +63,15 @@ For more information, refer to the project report and included commands/scripts 
 
 [Report Link](https://github.com/DheerajSwaroopSaligramaMahesh/Team_Project-Anomaly_Detection/blob/main/Anomaly_Detection_Project/Report_Nvidia_Orin_Nano_ss25.pdf)
 
+---
+
+## Contributors
+- Abhiram Anil
+- Agilan Vellalore Saminathadurairaj
+- Dheeraj Swaroop Saligrama Mahesh
+- Divya Ramesh Teli
+- Farzad Mehrdad
+- Prajwal Mangaluru
+- Shilpa Gopakumar
+
 [Commands to run Link](https://github.com/DheerajSwaroopSaligramaMahesh/Team_Project-Anomaly_Detection/blob/main/Anomaly_Detection_Project/Commands.txt)
