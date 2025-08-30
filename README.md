@@ -17,11 +17,11 @@ It extends NVIDIA’s anomaly detection reference app to support **live Intel Re
 ---
 
 ## Project Structure
-├── configs/ # DeepStream pipeline and model configs<br>
-├── scripts/ # Shell scripts for automation<br>
-├── models/ # ResNet-18 anomaly detection TensorRT engine<br>
-├── src/ # Pipeline adaptation and plugin integration<br>
-└── README.md # Project documentation<br>
+├── configs/ &nbsp;&nbsp;&nbsp;# DeepStream pipeline and model configs<br>
+├── scripts/ &nbsp;&nbsp;&nbsp;# Shell scripts for automation<br>
+├── models/ &nbsp;&nbsp;&nbsp;# ResNet-18 anomaly detection TensorRT engine<br>
+├── src/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Pipeline adaptation and plugin integration<br>
+└── README.md &nbsp;&nbsp;&nbsp;# Project documentation<br>
 
 
 ---
